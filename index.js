@@ -39,3 +39,10 @@ if (validator.isEmail(userEmail)) {
 
 //validator.isCreditCard('4125010001000208');*/
 
+//5-vlastni funkce
+
+const ellipseArea = (height, width) => {
+  return (height / 2 * width / 2 * Math.PI)
+};
+
+document.body.innerHTML += ellipseArea(2, 2);
