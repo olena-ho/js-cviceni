@@ -40,9 +40,22 @@ if (validator.isEmail(userEmail)) {
 //validator.isCreditCard('4125010001000208');*/
 
 //5-vlastni funkce
-
+/*
 const ellipseArea = (height, width) => {
   return (height / 2 * width / 2 * Math.PI)
 };
 
 document.body.innerHTML += ellipseArea(2, 2);
+*/
+
+//5-max2
+
+const max2 = (num1, num2) => {
+  if (num1 >= num2) {
+    return num1;
+  } else {
+    return num2;
+  }
+}
+
+document.body.innerHTML += max2(15,5);
