@@ -21,6 +21,9 @@ document.body.innerHTML +=
   Mzda v korunách: ${wageInCzk}
 <\h1>
 `*/
+
+//5-1
+/*
 const msgElement = document.querySelector('.msg');
 const userEmail = prompt('what is your email?');
 
@@ -34,4 +37,5 @@ if (validator.isEmail(userEmail)) {
 }
 
 
-//validator.isCreditCard('4125010001000208');
+//validator.isCreditCard('4125010001000208');*/
+
